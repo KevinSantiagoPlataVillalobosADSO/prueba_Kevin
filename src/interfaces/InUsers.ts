@@ -6,12 +6,10 @@ interface Data {
   estado_name?: string;
   iniciales?: string;
   documento_tipo?: string;
-  documento_num?: string;  
+  documento_num?: string;
 }
 
-interface Users {
+export interface Users {
   status?: string;
   data?: Array<Data>;
 }
-
-export default Users;
